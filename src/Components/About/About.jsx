@@ -46,7 +46,7 @@ export default function About () {
   return (
     <>
       <section className='bg-[#121212] px-12 py-3 About' id='about'>
-        <div className='flex flex-col px-12 md:w-1/3 text-white md1'>
+        <div className='flex flex-col md:w-1/3 text-white md1'>
           <motion.p
             className={`text-[#898989] my-1 font-semibold text-[18px]`}
             variants={fadeIn}
