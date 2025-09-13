@@ -1,0 +1,10 @@
+
+.cardsBg{
+  background: linear-gradient(to right ,rgb(0, 0, 0), rgb(2, 3, 44));
+  border:solid transparent 0px;
+  transition: border 0.1s 100ms ease;
+}
+.cardsBg:hover{
+  border:solid white 2px;
+  transition: border 0.1s 100ms ease;
+}

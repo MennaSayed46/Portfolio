@@ -1,0 +1,22 @@
+.slider{
+  left: calc(50% - 100px);
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+    animation: spin 20s linear infinite; 
+
+}
+
+.item {
+  transform: 
+    rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) *1deg))
+    translateZ(550px);
+}
+/* @keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+ */

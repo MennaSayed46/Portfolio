@@ -1,0 +1,19 @@
+.line-gradient{
+  background: linear-gradient(-90deg, #452f74 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(-90deg,#1d0b44 0%, rgba(60, 51, 80, .3) 100%);
+}
+
+input,textarea {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus,textarea:focus {
+  border-color: #6d28d9; 
+  box-shadow: 0 0 10px #6d28d9;
+}

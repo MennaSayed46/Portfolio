@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+   
+}
+
+p {
+    font-family: "Libertinus Serif Display", system-ui;
+}
+::selection{
+    background-color: rgba(128, 0, 128, 0.542);
+}
+
+::-webkit-scrollbar {
+  width: 8px; 
+  background-color: #121212;
+  /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-button {
+  background-color: transparent; 
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(-90deg, #804dee 0%, rgba(23, 0, 71, 0.7) 100%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(-90deg, #a073ff 0%, rgb(45, 0, 143) 100%);
+}
+
+
