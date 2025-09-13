@@ -21,7 +21,7 @@ export default function Home () {
           backgroundRepeat: 'no-repeat'
         }}
       >
-        <div className='flex items-start mx-auto px-24 pt-24'>
+        <div className='flex items-start mx-auto px-12 pt-24'>
           {/* Column */}
           <div className='flex flex-col justify-center items-center'>
             <div className='bg-purple-600 rounded-full w-[20px] h-[20px]' />
