@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import EarthCanvas from '../Canvas/Earth'
 import StarsCanvas from '../Canvas/Stars'
-import style from './contact.module.css'
+import style from './Contact.module.css'
 import * as yup from 'yup'
 import { useFormik } from 'formik'
 import emailjs from 'emailjs-com'
